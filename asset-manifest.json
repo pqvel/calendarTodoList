@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/calendarTodoList/static/css/main.5b4fbc5e.css",
-    "main.js": "/calendarTodoList/static/js/main.7a020de7.js",
+    "main.css": "/calendarTodoList/static/css/main.a813ad87.css",
+    "main.js": "/calendarTodoList/static/js/main.6dbfd51e.js",
     "index.html": "/calendarTodoList/index.html",
-    "main.5b4fbc5e.css.map": "/calendarTodoList/static/css/main.5b4fbc5e.css.map",
-    "main.7a020de7.js.map": "/calendarTodoList/static/js/main.7a020de7.js.map"
+    "main.a813ad87.css.map": "/calendarTodoList/static/css/main.a813ad87.css.map",
+    "main.6dbfd51e.js.map": "/calendarTodoList/static/js/main.6dbfd51e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b4fbc5e.css",
-    "static/js/main.7a020de7.js"
+    "static/css/main.a813ad87.css",
+    "static/js/main.6dbfd51e.js"
   ]
 }

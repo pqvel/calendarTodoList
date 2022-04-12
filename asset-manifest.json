@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/calendarTodoList/static/css/main.fa85f29e.css",
+    "main.js": "/calendarTodoList/static/js/main.cc25d5f9.js",
+    "index.html": "/calendarTodoList/index.html",
+    "main.fa85f29e.css.map": "/calendarTodoList/static/css/main.fa85f29e.css.map",
+    "main.cc25d5f9.js.map": "/calendarTodoList/static/js/main.cc25d5f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa85f29e.css",
+    "static/js/main.cc25d5f9.js"
+  ]
+}

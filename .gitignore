@@ -13,7 +13,7 @@
 # with git
 /buildGit
 /features
-
+/code
 # misc
 .DS_Store
 .env.local

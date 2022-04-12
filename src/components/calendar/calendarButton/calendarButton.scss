@@ -1,0 +1,15 @@
+.calendar {
+    &__button {
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        &-img {
+            transform: scale(1.2);
+        }
+    
+        &--prev {
+            transform: rotate(180deg);
+        }
+    }
+}

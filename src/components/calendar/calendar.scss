@@ -1,0 +1,229 @@
+
+.calendar {
+    border-collapse: separate;
+    border-spacing: 30px;
+    
+    &__header {
+        &-item {
+            text-align: end;
+
+            &:last-child {
+                text-align: start;
+            }
+        }
+
+        & th {
+            text-align: center;
+            font-size: 1.815rem;
+        }
+    }
+
+    &__item {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 4px;
+
+        &_active {
+    
+           & a {
+               color: #000;
+               background-color: #fff;
+           } 
+        }
+    }
+
+
+    &__item-link {   
+        display: flex;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        color: inherit;
+    }
+
+    &__item-dayweek, &__item-day {
+        position: absolute;
+        line-height: 100%;
+    }
+
+    &__item-dayweek {
+        left: -12px;
+        top: -12px;
+        color: #fff;
+    }
+
+    &__item-day {
+        font-size: 2.5rem;
+        line-height: 100%;
+        padding-bottom: 3px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);       
+    }
+}
+
+@media (max-width: 1116px) {
+    .calendar {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 770px) {
+    .calendar {     
+        border-spacing: 20px;
+    }
+}
+
+@media (max-width: 710px) {
+    .calendar {
+        max-width: 100%;
+        border-spacing: 3.25vw;
+        &__header {
+
+            & th {
+                font-size: 1.5rem;
+                padding-bottom: 10px;
+            }
+        }
+
+        &__item {
+            
+            width: calc(10vw);
+            height: calc(10vw);
+            
+            &-dayweek {
+                font-size: 0.9rem;
+            }
+            &-day {
+                font-size: 2rem;
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 610px) {
+    .calendar {
+        
+        // border-spacing: 15px;
+
+        &__item-dayweek {
+            left: -10px;
+            top: -10px;
+            color: #fff;
+        }
+
+    }
+}
+
+@media (max-width: 580px) {
+    .calendar {
+
+        &__item {
+            &-dayweek {
+                font-size: 0.8rem;
+            }
+            &-day {
+                font-size: 1.815rem;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 530px) {
+    .calendar {
+        &__header th {
+            font-size: 1.3rem;
+        }
+
+        &__item-dayweek {
+            left: -9px;
+            top: -9px;
+            color: #fff;
+        }
+
+    }
+}
+
+@media (max-width: 470px) {
+    .calendar {
+        
+        &__header th {
+            font-size: 1.1rem;
+        }
+    
+        &__item {
+            &-dayweek {
+                font-size: 0.75rem;
+                top: -8px;
+                left: -7px;
+            }
+            &-day {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 470px) {
+    .calendar {
+        &__item {
+            &-dayweek {
+                font-size: 0.70rem;
+                top: -7px;
+                left: -7px;
+            }
+            &-day {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 395px) {
+    .calendar {
+    
+        &__header th {
+            font-size: 1em;
+            padding: 10px 0 15px;
+        }
+        &__item {
+
+            &-dayweek {
+                font-size: 0.68rem;
+                top: -7px;
+                left: -6px;
+            }
+            &-day {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    .calendar {
+
+        &__header th {
+            font-size: 0.95rem;
+            padding: 10px 0 15px;
+        }
+
+        &__item {
+        
+            &-dayweek {
+                font-size: 0.62rem;
+                top: -7px;
+                left: -5px;
+            }
+            &-day {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
